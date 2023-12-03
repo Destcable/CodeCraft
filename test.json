@@ -15,8 +15,16 @@
       "id": 3,
       "type": "if",
       "param_1": "{2}",
-      "param_2": "true",
-      "operator": "=="
+      "param_2": "",
+      "operator": "==",
+      "then": {
+        "type": "console_log",
+        "message": "да все гуд"
+      },
+      "catch": {
+        "type": "console_log",
+        "message": "нет все не гуд"
+      }
     }
   ]
 }

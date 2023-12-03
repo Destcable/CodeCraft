@@ -2,7 +2,8 @@
     "name": "artem/code-craft",
     "autoload": {
         "psr-4": {
-            "Artem\\CodeCraft\\": "src/"
+            "Languages\\": "languages/",
+            "Utils\\": "utils/"
         }
     },
     "authors": [
