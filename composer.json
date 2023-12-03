@@ -1,0 +1,15 @@
+{
+    "name": "artem/code-craft",
+    "autoload": {
+        "psr-4": {
+            "Artem\\CodeCraft\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Destcable",
+            "email": "artmobpavlov21@gmail.com"
+        }
+    ],
+    "require": {}
+}

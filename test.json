@@ -1,0 +1,9 @@
+{
+  "code": [
+    {
+      "type": "selector",
+      "param_selector": "class",
+      "element": "container-fluid"
+    }
+  ]
+}
