@@ -1,9 +1,22 @@
 {
   "code": [
     {
+      "id": 1,
       "type": "selector",
-      "param_selector": "class",
-      "element": "container-fluid"
+      "param_selector": "id",
+      "element": "form_text_1"
+    },
+    {
+      "id": 2,
+      "type": "get_value",
+      "element_id": 1
+    },
+    {
+      "id": 3,
+      "type": "if",
+      "param_1": "{2}",
+      "param_2": "true",
+      "operator": "=="
     }
   ]
 }
